@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - entry point
+ *
  * return: always 0 (success/correct)
  */
 
@@ -16,7 +16,7 @@ int main(void)
 			continue;
 
 		else if (alpahbet == 'e')
-			continuw;
+			continue;
 
 	putchar(alphabet);
 }
