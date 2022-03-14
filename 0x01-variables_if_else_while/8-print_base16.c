@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
 int main(void)
 {
     char ch = 'a';
@@ -19,5 +23,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-    return 0;
+    return (0);
 }
