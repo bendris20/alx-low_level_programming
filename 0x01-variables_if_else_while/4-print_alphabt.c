@@ -2,15 +2,15 @@
 /**
  * main - entry point
  *
- * return: always 0 (success/correct)
+ * Return: Always 0 (Success/correct)
  */
 
 int main(void)
 
 {
-	char alphabet;
+char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		if (alphabet == 'q')
 			continue;
@@ -18,7 +18,7 @@ int main(void)
 		else if (alpahbet == 'e')
 			continue;
 
-	putchar(alphabet);
+putchar(alphabet);
 }
 
 putchar('\n');
