@@ -1,17 +1,29 @@
 #include <stdio.h>
 
-int main(void)
-{
-    char ch = 'a';
-	while(ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
-	}
-	putchar('\n');
+/**
+ * main - entry point
+ * return: always 0 (success/correct)
+ */
 
-    return 0;
+int main(void)
+
+{
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		if (alphabet == 'q')
+			continue;
+
+		else if (alpahbet == 'e')
+			continuw;
+
+	putchar(alphabet);
 }
+
+putchar('\n');
+
+return (0);
+
+}
+	
