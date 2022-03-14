@@ -6,12 +6,15 @@
  */
 int main(void)
 {
- 
-for (int i = 0; i <= 9; i++)
+int number;
+
+for (number = 48; i <= 57; number++)
 {
-putchar(i + '0');
-if (i != 9)
+putchar(number);
+if (number == 57)
 {
+break;
+}
 putchar(',');
 putchar(' ');
 }
